@@ -1,12 +1,8 @@
 
 
-counter = 0 # Start our counter at 0, we have never run the loop
-loop do
+counter = 0
+while counter < 20
+  puts "The current number is less than 20."
   counter += 1
-
-  puts "Iteration #{counter} of the loop"
-
-  if counter >= 3
-    break
-  end
 end
+
